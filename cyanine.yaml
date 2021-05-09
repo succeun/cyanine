@@ -220,6 +220,8 @@ forms:
           options:
             'm/d/Y': 01/20/2020
             'd.m.Y': 20.01.2020
+            'Y/m/d': 2020/01/20
+            'Y/m/d': 2020/01/20
 
     fieldsetGitHub:
       type: fieldset
@@ -369,7 +371,7 @@ forms:
         bordercolortertiary:
           type: text
           label: Border color for buttons
-          placeholder: '#F7F7F7'
+          placeholder: 'lightseagreen'
           fieldsize: half
         fontcolorlink:
           type: text
